@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaPalfed } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
 import {
@@ -46,7 +46,7 @@ function Navbar() {
               KUDAPUNNY
             </NavLogo>
             <MobileIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <FaPalfed /> : <FaPalfed />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>

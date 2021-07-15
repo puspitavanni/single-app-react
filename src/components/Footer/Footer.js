@@ -41,7 +41,6 @@ function Footer() {
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
-            <SocialIcon />
             KUDAPUNNY
           </SocialLogo>
           <WebsiteRights>KUDAPUNNY © 2021</WebsiteRights>

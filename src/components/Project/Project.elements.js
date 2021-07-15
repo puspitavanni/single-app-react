@@ -6,7 +6,7 @@ export const ProjectSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: #1C1A94;
 `;
 
 export const ProjectWrapper = styled.div`
