@@ -1,14 +1,14 @@
 import React from 'react';
 import { InfoSection } from '../../components';
-import { homeObjOne, homeObjTwo } from './Data';
+import { homeObjOne } from './Data';
 
-function Products() {
+function Blogs() {
   return (
     <>
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+  
     </>
   );
 }
 
-export default Products;
+export default Blogs;
